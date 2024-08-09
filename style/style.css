@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:black;
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+ 
+.container {
+    background-color: rgba(155, 149, 149, 0.74);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+ 
+header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+ 
+form {
+    display: flex;
+    flex-direction: column;
+}
+ 
+.form-control, .form-control2, .form-control3 {
+    margin-bottom: 15px;
+}
+ 
+.form-control label, .form-control2 label, .form-control3 label {
+    display: block;
+    margin-bottom: 5px;
+}
+ 
+.form-control input, .form-control2 input, .form-control3 input {
+    width: 100%;
+    padding: 8px;
+    background-color: rgba(155, 149, 149, 0.74);
+
+    border-radius: 4px;
+}
+ 
+.form-button {
+    text-align: center;
+}
+ 
+.form-button button {
+    background-color: #2b5736;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+ 
+.form-button button:hover {
+    background-color: rgb(27, 147, 202);
+}
+button{
+    margin-top: 10px;
+}
+.lista{
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+}
+.excluir-btn{
+    color: brown;
+    background-color: red;
+    border-radius: 20px;
+    width: 60px;
+
+}
